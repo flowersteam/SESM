@@ -1,0 +1,70 @@
+/*
+Theme Name: Poppy template
+Theme URI: http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial
+Description: A demo theme built to accompany the Treehouse blog post <a href="http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial">How to Build a WordPress Theme with Bootstrap</a>.
+Author: Zac Gordon
+Author URI: http://teamtreehouse.com/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
+*/
+
+
+@import url('smartbox_theme/stylesheets/bootstrap.css'); 
+@import url('smartbox_theme/stylesheets/responsive.css'); 
+@import url('smartbox_theme/stylesheets/font-awesome.css'); 
+@import url('smartbox_theme/stylesheets/fancybox.css'); 
+@import url('smartbox_theme/stylesheets/theme.css'); 
+@import url('smartbox_theme/stylesheets/font.css'); 
+
+
+/* Modification du style de base */
+
+p {
+    text-align: justify;
+}
+
+
+body {
+
+}
+
+.wrapper {
+  /*width: 80%;*/
+  max-width: 630;
+}
+
+h1.super-right {
+  margin-right: 20px;
+  text-align: right;
+}
+
+h1.super-left {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.nav-tabs > li > a {
+  max-width: 400px;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.container-fluid {
+    padding: 0px 40px;
+}
+
+.section-padded {
+    padding: 5;
+}
+
+.panel_control {
+text-align: center}
+
+h2 { text-align: center; color: green}
